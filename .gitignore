@@ -1,6 +1,15 @@
 ECG.csv
-**/.ipynb_checkpoints
+
+*.ipynb_checkpoints
+
 apnea_ecg.pkl
+
 sandbox.ipynb
+
 LZHW PyPI Package.ipynb
-.h5
+
+*.h5
+
+*.pickle
+
+*.txt
