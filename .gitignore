@@ -1,5 +1,21 @@
+*.ipynb_checkpoints
+
+*.h5
+
+*.pickle
+
+*.txt
+
 ECG.csv
-**/.ipynb_checkpoints
+
 apnea_ecg.pkl
+
 sandbox.ipynb
+
 LZHW PyPI Package.ipynb
+
+From Git_Wavelet-Based ECG Compression.ipynb
+
+nerajbobra original.ipynb
+
+RebolloNeira.ipynb
