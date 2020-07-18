@@ -6,6 +6,10 @@
 
 *.txt
 
+raw data/
+
+processed data/
+
 ECG.csv
 
 apnea_ecg.pkl

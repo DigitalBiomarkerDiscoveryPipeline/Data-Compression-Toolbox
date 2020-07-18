@@ -18,8 +18,13 @@ Code can go here if you need that for your instructions
 Dependencies:
 
 ```sh
-pandas
+matplotlib.pyplot
+pywt
 numpy
+pandas
+scipy.signal
+copy
+json
 ```
 
 ### Evaluation
@@ -28,7 +33,7 @@ The results of this method on the following wearable sensors:
 
 | Wearable Sensor | Compression Ratio | Percentage RMS difference |
 | ------ | ------ | ------ | 
-| ECG | 1.782 | XX |
+| ECG | 274.70 | 0.348 |
 | PPG | XX | XX |
 | ACC | XX | XX |
 | EDA | XX | XX |
@@ -38,7 +43,8 @@ The results of this method on the following wearable sensors:
 
 ### References
 
-Here you should list any references you used to create this code.
+Python code from the following Github was used and modified:
+https://github.com/nerajbobra/wavelet-based-ecg-compression
 
 
 License
