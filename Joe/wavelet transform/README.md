@@ -34,9 +34,9 @@ The results of this method on the following wearable sensors:
 | Wearable Sensor | Compression Ratio | Percentage RMS difference |
 | ------ | ------ | ------ | 
 | ECG | 274.70 | 0.348 |
-| PPG | XX | XX |
+| PPG | 43.542 | 0.499 |
 | ACC | XX | XX |
-| EDA | XX | XX |
+| EDA | 16.455 | 0.073 |
 | TEMP | XX | XX |
 
 
