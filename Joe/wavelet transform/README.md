@@ -37,7 +37,7 @@ The results of this method on the following wearable sensors:
 | ECG | 8.143 | 1.762 |
 | PPG | 4.687 | 1.632 |
 | ACC | 5.519 | 1.428 |
-| EDA | 21.755 | 1.923 |
+| EDA | 21.755 | 1.543 |
 | TEMP | 100.61 | 0.301 |
 
 
