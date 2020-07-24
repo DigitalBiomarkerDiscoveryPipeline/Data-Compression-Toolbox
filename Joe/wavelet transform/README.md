@@ -25,6 +25,7 @@ pandas
 scipy.signal
 copy
 json
+os
 ```
 
 ### Evaluation
@@ -33,11 +34,11 @@ The results of this method on the following wearable sensors:
 
 | Wearable Sensor | Compression Ratio | Percentage RMS difference |
 | ------ | ------ | ------ | 
-| ECG | 279.42 | 0.348 |
-| PPG | 33.463 | 0.191 |
-| ACC | XX | XX |
-| EDA | 31.437 | 0.0257 |
-| TEMP | 122.49 | 0.007 |
+| ECG | 8.143 | 1.762 |
+| PPG | 4.687 | 1.632 |
+| ACC | 5.519 | 1.428 |
+| EDA | 21.755 | 1.923 |
+| TEMP | 110.17 | 0.419 |
 
 
 
