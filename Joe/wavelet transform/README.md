@@ -37,7 +37,7 @@ The results of this method on the following wearable sensors:
 | ECG | 8.143 | 1.762 |
 | PPG | 4.687 | 1.632 |
 | ACC | 5.519 | 1.428 |
-| EDA | 21.755 | 1.543 |
+| EDA | 15.083 | 1.543 |
 | TEMP | 100.61 | 0.301 |
 
 
@@ -46,7 +46,10 @@ The results of this method on the following wearable sensors:
 
 Python code from the following Github was used and modified:
 https://github.com/nerajbobra/wavelet-based-ecg-compression
-
+Methodology was derived from the following paper:
+[An efficient coding algorithm for the compression of ECG signals using the wavelet transform](https://ieeexplore.ieee.org/document/991163)
+With modifications made according to this paper:
+[Comments on "An efficient coding algorithm for the compression of ECG signals using the wavelet transform"](https://ieeexplore.ieee.org/document/1213856)
 
 License
 ----
