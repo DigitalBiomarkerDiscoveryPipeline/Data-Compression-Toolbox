@@ -45,9 +45,9 @@ The results of this method on the following wearable sensors:
 ### References
 
 Python code from the following Github was used and modified:
-https://github.com/nerajbobra/wavelet-based-ecg-compression
+https://github.com/nerajbobra/wavelet-based-ecg-compression  
 Methodology was derived from the following paper:
-[An efficient coding algorithm for the compression of ECG signals using the wavelet transform](https://ieeexplore.ieee.org/document/991163)
+[An efficient coding algorithm for the compression of ECG signals using the wavelet transform](https://ieeexplore.ieee.org/document/991163)  
 With modifications made according to this paper:
 [Comments on "An efficient coding algorithm for the compression of ECG signals using the wavelet transform"](https://ieeexplore.ieee.org/document/1213856)
 
