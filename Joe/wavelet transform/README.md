@@ -46,7 +46,7 @@ The results of this method on the following wearable sensors:
 | PPG | 4.687 | 1.632 |
 | ACC | 5.519 | 1.428 |
 | EDA | 15.083 | 1.543 |
-| TEMP | 100.61 | 0.301 |
+| TEMP | 83.462 | 0.0587 |
 
 
 
