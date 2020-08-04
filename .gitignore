@@ -6,8 +6,8 @@
 
 *.txt
 
-raw data/
+*.huffman
 
-processed data/
+raw data/
 
 LZHW PyPI Package.ipynb
