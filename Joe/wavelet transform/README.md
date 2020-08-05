@@ -17,8 +17,6 @@ Input the signal to be compressed and define the various paramters listed below:
 1. threshold percentage for detail 5 coefficients
 1. threshold percentage for detail 4-1 coefficients
 
-
-
 ```sh
 Code can go here if you need that for your instructions
 ```
