@@ -4,12 +4,18 @@
 
 If you use this method in your work, please cite the DBDP: dbdp.org and the references at the bottom of this page.
 
-Description of method here.
+This method utilizes a discrete wavelet transform to decompose a signal into its approximation and detail wavelet coefficients. After thresholding, these coefficients are further compressed through simple bit packing and run length encoding.
 
 
 ### Instructions
 
-Put instructions of how to use your method here.
+Input the signal to be compressed and define the various paramters listed below:  
+1. sampling rate
+1. maximum number of bits that can represent run length
+1. maximum desired PRD
+1. threshold percentage for approximation coefficients
+1. threshold percentage for detail 5 coefficients
+1. threshold percentage for detail 4-1 coefficients
 
 ```sh
 Code can go here if you need that for your instructions
@@ -34,19 +40,22 @@ The results of this method on the following wearable sensors:
 
 | Wearable Sensor | Compression Ratio | Percentage RMS difference |
 | ------ | ------ | ------ | 
-| ECG | 8.143 | 1.762 |
+| ECG | 16.691 | 0.380 |
 | PPG | 4.687 | 1.632 |
 | ACC | 5.519 | 1.428 |
-| EDA | 21.755 | 1.923 |
-| TEMP | 110.17 | 0.419 |
+| EDA | 15.372 | 0.236 |
+| TEMP | 83.462 | 0.0587 |
 
 
 
 ### References
 
 Python code from the following Github was used and modified:
-https://github.com/nerajbobra/wavelet-based-ecg-compression
-
+https://github.com/nerajbobra/wavelet-based-ecg-compression  
+Methodology was derived from the following paper:
+[An efficient coding algorithm for the compression of ECG signals using the wavelet transform](https://ieeexplore.ieee.org/document/991163)  
+With modifications made according to this paper:
+[Comments on "An efficient coding algorithm for the compression of ECG signals using the wavelet transform"](https://ieeexplore.ieee.org/document/1213856)
 
 License
 ----

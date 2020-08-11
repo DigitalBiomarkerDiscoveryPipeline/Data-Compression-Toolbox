@@ -6,8 +6,10 @@
 
 *.txt
 
+*.huffman
+
 raw data/
 
-processed data/
-
 LZHW PyPI Package.ipynb
+
+tempcodec
