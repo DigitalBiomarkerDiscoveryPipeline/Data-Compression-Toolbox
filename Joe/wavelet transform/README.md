@@ -17,6 +17,9 @@ Input the signal to be compressed and define the various paramters listed below:
 1. threshold percentage for detail 5 coefficients
 1. threshold percentage for detail 4-1 coefficients
 
+
+*note: the do_plot parameter is for visualization purposes only. as such, the plotting functionality is omitted in the comprehensive frame function.*
+
 ```sh
 Code can go here if you need that for your instructions
 ```
@@ -41,10 +44,10 @@ The results of this method on the following wearable sensors:
 | Wearable Sensor | Compression Ratio | Percentage RMS difference |
 | ------ | ------ | ------ | 
 | ECG | 16.691 | 0.380 |
-| PPG | 4.687 | 1.632 |
+| PPG | 15.198 | 0.645 |
 | ACC | 5.519 | 1.428 |
 | EDA | 15.372 | 0.236 |
-| TEMP | 83.462 | 0.0587 |
+| TEMP | 83.462 | 0.059 |
 
 
 
@@ -54,7 +57,7 @@ Python code from the following Github was used and modified:
 https://github.com/nerajbobra/wavelet-based-ecg-compression  
 Methodology was derived from the following paper:
 [An efficient coding algorithm for the compression of ECG signals using the wavelet transform](https://ieeexplore.ieee.org/document/991163)  
-With modifications made according to this paper:
+With some modifications made according to this paper:
 [Comments on "An efficient coding algorithm for the compression of ECG signals using the wavelet transform"](https://ieeexplore.ieee.org/document/1213856)
 
 License
