@@ -1,4 +1,4 @@
-# Method #1: Name of Method Here
+# Method #1: Direct Huffman
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
