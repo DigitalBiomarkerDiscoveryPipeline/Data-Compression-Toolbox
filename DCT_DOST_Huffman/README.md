@@ -1,10 +1,10 @@
-# Method #4: DCT based DOST + Huffman encoding
+# Method #4: DCT based DOST + Run-length Encoding
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 If you use this method in your work, please cite the DBDP: dbdp.org and the references at the bottom of this page.
 
-This method uses Butterworth filter and resampling to preprocess the raw data. And then DCT based DOST was applies on the data. After this step and some basic quantization, Huffman encoding will be applied on the processed data.
+This method uses Butterworth filter and resampling to preprocess the raw data. And then DCT based DOST was applies on the data. After this step and some basic quantization, Run-length encoding will be applied on the processed data.
 
 The detailed steps and instructions are listed in the code by comments and markdown trunks.
 
@@ -35,11 +35,11 @@ The results of this method on the following wearable sensors:
 
 | Wearable Sensor | Compression Ratio | Percentage RMS difference |
 | ------ | ------ | ------ | 
-| ECG | 57.46 | 8.97 |
-| PPG | 35.74 | 0.44 |
-| ACC | 41.86 | 3.66 |
-| EDA | 25.22 | 0.08 |
-| TEMP | 12.61 | 5.28 |
+| ECG | 12.88 | 8.97 |
+| PPG | 9.22 | 0.44 |
+| ACC | 9.32 | 3.66 |
+| EDA | 6.88 | 0.08 |
+| TEMP | 5.54 | 5.28 |
 
 
 
