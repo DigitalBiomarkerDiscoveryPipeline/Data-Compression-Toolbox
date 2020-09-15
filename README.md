@@ -10,6 +10,8 @@
 The DBDP is created by the **BIG IDEAS Lab** at Duke University: http://dunn.pratt.duke.edu/
 If you use the DBDP in your work, please cite the DBDP: dbdp.org.
 
+<img width="800" alt="Fig1" src="https://user-images.githubusercontent.com/43549914/93239336-a374b300-f750-11ea-8e3f-5cec344a5356.PNG">
+
 ### Motivation
 
 A critical problem in using longitudinal wearable sensor data for digital biomarker development is the "data deluge" and subsequent immense data storage costs. Here, we examine data compression methods and evaluate them on common wearable sensor data. We highly encourage you to contribute and test your own data compression method to continue this effort!
