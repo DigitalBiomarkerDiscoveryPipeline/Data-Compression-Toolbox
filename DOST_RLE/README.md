@@ -1,4 +1,4 @@
-# Method #1: Direct Huffman
+# DCT DOST + Run-length Encoding
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -35,12 +35,11 @@ The results of this method on the following wearable sensors:
 
 | Wearable Sensor | Compression Ratio | Percentage RMS difference |
 | ------ | ------ | ------ | 
-| ECG | 55.5 | 1.02 |
-| PPG | 13.68 | 0.22 |
-| ACC | 10.99 | 0.02 |
-| EDA | 12.34 | 0.49 |
-| TEMP | 11.94 | 0.45 |
-
+| ECG | 9.82 | 4.19% |
+| PPG | 3.40 | 6.08% |
+| ACC | 3.34 | 5.33% |
+| EDA | 3.19 | 7.80% |
+| TEMP | 3.36 | 6.17% |
 
 
 ### References
