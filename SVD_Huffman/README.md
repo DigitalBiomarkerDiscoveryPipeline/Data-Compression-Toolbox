@@ -1,4 +1,4 @@
-# Method #2: Singular Value Decomposition + Huffman
+# Singular Value Decomposition + Huffman
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -32,11 +32,11 @@ The results of this method on the following wearable sensors:
 
 | Wearable Sensor | Compression Ratio | Percentage RMS difference |
 | ------ | ------ | ------ | 
-| ECG | 43.8 | 1.74 |
-| PPG | 9.47 | 1.75 |
-| ACC | 8.85 | 1.93 |
-| EDA | 10.80 | 1.88 |
-| TEMP | 10.80 | 0.70 |
+| ECG | 50.22 | 0.38% |
+| PPG | 5.41 | 0.48% |
+| ACC | 6.48 | 0.64% |
+| EDA | 9.75 | 0.06% |
+| TEMP | 11.27 | 0.68% |
 
 
 
