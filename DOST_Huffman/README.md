@@ -1,4 +1,4 @@
-# Method #4: DCT based DOST + Run-length Encoding
+# Method #4: DCT based DOST + Huffman Encoding
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
