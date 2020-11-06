@@ -1,4 +1,4 @@
-# Method #1: Discrete Wavelet Transform + Run Length Encoding
+# Discrete Wavelet Transform + Run Length Encoding
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -43,11 +43,11 @@ The results of this method on the following wearable sensors:
 
 | Wearable Sensor | Compression Ratio | Percentage RMS difference |
 | ------ | ------ | ------ | 
-| ECG | 16.691 | 0.380 |
-| PPG | 15.198 | 0.645 |
-| ACC | 15.023 | 0.533 |
-| EDA | 15.372 | 0.236 |
-| TEMP | 83.462 | 0.059 |
+| ECG | 137.39 | 0.85% |
+| PPG | 16.66 | 1.34% |
+| ACC | 14.94 | 0.94% |
+| EDA | 15.43 | 0.53% |
+| TEMP | 78.77 | 0.10% |
 
 
 
