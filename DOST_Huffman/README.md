@@ -1,4 +1,4 @@
-# Method #4: DCT based DOST + Huffman Encoding
+# DCT based DOST + Huffman Encoding
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -35,11 +35,11 @@ The results of this method on the following wearable sensors:
 
 | Wearable Sensor | Compression Ratio | Percentage RMS difference |
 | ------ | ------ | ------ | 
-| ECG | 9.82 | 4.19% |
-| PPG | 3.40 | 6.08% |
-| ACC | 3.34 | 5.33% |
-| EDA | 3.19 | 7.80% |
-| TEMP | 3.36 | 6.17% |
+| ECG | 42.66 | 4.19% |
+| PPG | 14.63 | 6.08% |
+| ACC | 15.82 | 5.33% |
+| EDA | 14.78 | 7.80% |
+| TEMP | 18.52 | 6.17% |
 
 
 
